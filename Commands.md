@@ -22,8 +22,8 @@ pwd
 - The cd command is used for change directory. 
 
 ### OBS: 
-- / -> Diretório raiz 
-- ~ -> Diretório home 
+- / -> Root directory
+- ~ -> Home directory
 
 ```sh
 cd 
