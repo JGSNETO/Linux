@@ -1,48 +1,5 @@
 ## List of Linux Commands
 
-### Echo
-
--  The echo command is used to display a line of text.
-
-```sh
-echo 'Hello World'
-Hello World
-```
-
-### PWD
-
-- The pwd command writes to standard output the full path name of your current directory (from the root directory).
-
-```sh
-pwd
-```
-
-
-```
-### Clear:
-- This command is used for clear terminal.
-```sh
-clear
-```
-
-### Sudo:
-- This command is used allow a user with proper permissions to execute a command as another user.
-```sh
-sudo ... 
-```
-### ls:
-- This command is used to show all files in the path.
-```sh
-ls 
-```
-
-### mkdir 
-- This command allows users to create or make new directories
-
-```sh
-mkdir foldername 
-```
-
 ### Access Control 
 
 ## Exit
@@ -130,3 +87,71 @@ cd ..
 
 OBS: Finish here.
 https://www.devmedia.com.br/comandos-importantes-linux/23893
+
+## ln
+
+- This command create a link with a file
+
+```
+ln -s [OPTIONS] FILE LINK
+```
+
+## ls
+
+- This command list all content in the directory
+
+```
+ls
+```
+
+## mkdir
+
+- This command create a directory 
+
+```
+mkdir [option] dir_name
+```
+
+## mv 
+
+- This command move or rename files or directory 
+
+```
+mv [option] file directory
+```
+
+## pwd 
+
+- This command show the full pathname
+
+```
+pwd [-option]
+```
+
+## rm
+
+- This command remove files 
+
+```
+rm filename
+```
+
+### Process Control
+
+## kill
+
+- This command kill one process 
+
+```
+kill [option]
+```
+
+## top
+
+- this command list the processes in CPU
+
+```
+top [option]
+```
+
+
