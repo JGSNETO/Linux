@@ -196,3 +196,59 @@ chgrp grp_owner filename
 ```
 chgrp -R grp_owner dir_name
 ```
+
+### man
+
+- This command read the manual page of <name>. 
+
+```
+man <name>
+```
+
+- This command read the manual page of <name>, related to the given section.
+
+```
+man <section> <name> 
+```
+
+- This command output all the software whose man pages contain <editor> keyword.
+
+```
+man -k <editor>
+```
+
+- This command outputs all man pages containing <keyword> within them
+
+```
+man -K <keyword> 
+```
+
+### apropos 
+
+- This command output all the applications whose one line description matches the word editor. When not able to recall the name of the application, use this command. 
+
+```
+apropos <editor>
+```
+
+### help
+
+- This command in bash shell, will display the list of all available bash commands.
+
+```
+help
+```
+
+- This command in bash shell, will display the info about the <name> bash command. 
+
+```
+help <name>
+```
+
+- This command, show all the information about <name>.
+
+```
+info <name>
+```
+
+### dpkg
