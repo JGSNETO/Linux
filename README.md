@@ -252,3 +252,86 @@ info <name>
 ```
 
 ### dpkg
+
+- This command outputs a list of all installed packages on a Debian-Based systems.
+
+```
+dpkg -l
+```
+
+- This command will list out the files installed and path details for a given package on Debian.
+
+```
+dpkg -l packageName
+```
+
+- This command will return all .deb installed and path details for a given package on Debian.
+
+```
+dpkg -l | grep -i <edit>
+```
+
+### Less  
+
+- This command returns description of all avaiable packages.
+
+```
+less /var/lib/dpkg/available 
+```
+
+### whatis vim
+
+- This command list a one-line description of VIM.
+
+```
+whatis vim
+```
+
+## Usability
+
+### Hostname
+
+- This command display hostname of the system.
+
+```
+hostname
+```
+
+- This command displays fully qualified domain name of the system.
+
+```
+hostname -f
+```
+
+### passwd
+
+- This command change passwd of current user
+
+```
+passwd [option][user]
+```
+Options:
+-d: Delete passwd.
+-e: Consider expired passwd.
+-u: Update only after the experation date.
+
+### chmod
+
+- This command change permissions
+
+```
+chmod [option]
+```
+
+Options:
+
+-c: Show which files are changing permission.
+-v: Show which files are been processing.
+-R: Change recursively file permissions. 
+-u: File owner;
+-g: Group of user that are part of the same group as the file.
+-o: User's not part of file group.
+-a: All users.
+-r: Read.
+-w: Record.
+-x: Execute.
