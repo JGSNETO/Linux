@@ -335,3 +335,66 @@ Options:
 -r: Read.
 -w: Record.
 -x: Execute.
+
+### top
+
+- This command list all processes sorted by their current system resource usage. Displays a continually updated display of processes. Use q key to exit top. 
+
+```
+top -hv | -bcEeHiOSs1 -d secs -n max -u | U user -p pid(s) -o field -w [cols]
+```
+
+### find 
+
+- This command is to search for files/directories with a certain name or containing certain text.
+
+```
+find [options] [path...] [expression]
+```
+
+## File Manipulation
+
+- This command create an empty text file:
+
+```
+touch filename
+```
+
+- This command rename the file:
+
+```
+mv filename_origin filename_modified
+```
+
+- This command view the file content
+
+```
+cat file
+```
+
+- This command view the content of a file with pager.
+
+```
+less FirstFile
+```
+
+- This command is used to edit the file content.
+
+ ```
+ vi File
+ ```
+ 
+ - This command creates an empty directory
+ 
+ ``` 
+ mkdir myFileDirectory
+ ```
+ 
+ - This command move the file into the directory. 
+ 
+ ```
+ mv myFirstFile myFirstDirectory
+ ```
+ 
+
+
