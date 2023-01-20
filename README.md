@@ -396,5 +396,13 @@ less FirstFile
  mv myFirstFile myFirstDirectory
  ```
  
+ ### CODE
+ 
+ - This command will open the file/Folder into VSCODE
+ 
+ ```
+ code
+ ```
+ 
 
 
