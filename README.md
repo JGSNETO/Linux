@@ -402,6 +402,8 @@ less FirstFile
  
  ```
  code
+ or 
+ code .
  ```
  
 
